@@ -48,6 +48,7 @@ li.completed {
 .delete {
     color: red;
     cursor: pointer;
+    width: max-content;
 }
 #add-btn {
     width: 100%;
