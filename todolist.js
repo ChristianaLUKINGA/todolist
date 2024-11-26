@@ -3,7 +3,7 @@ const taskList = document.getElementById('taskList');
 const addButton = document.getElementById('add-btn');
 
 addButton.addEventListener('click', function () {
-    var task = prompt('Ajoutez la tâche :');
+    const task = prompt('Ajoutez la tâche :');
     if (task) {
         addTask(task);
     }
